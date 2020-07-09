@@ -6,7 +6,8 @@
     color: #fff;
   }
 
-  a.dropdown-toggle.nav-link:hover {
+  a.dropdown-toggle.nav-link:hover,
+  a.dropdown-toggle.nav-link:active {
     color: #212529;
   }
 }
