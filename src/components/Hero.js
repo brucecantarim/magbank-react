@@ -5,7 +5,7 @@ import logoDesktop from '../assets/logo__magic-pay.png';
 import './Hero.scss';
 
 const Hero = () => (
-  <Jumbotron className='text-center text-light hero'>
+  <Jumbotron className='text-center text-light hero' fluid>
     <Row className='my-lg-5'>
       <Col lg className='text-lg-right my-lg-5'>
         <Image className='d-lg-none' src={logo} />
