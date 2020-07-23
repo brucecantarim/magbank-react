@@ -15,7 +15,7 @@ const CreditCard = () => (
     <Row>
       <Col xs={12} lg={7} className='mb-5 mb-lg-0 px-5 px-lg-0'>
         <Row>
-          <h2 className='display-4 my-5'>Cartão de crédito</h2>
+          <h2 className='my-5 credit-card-title'>Cartão de crédito</h2>
         </Row>
         <Row>
           <Col xs={12} lg={6} className='mb-4'>
@@ -27,7 +27,7 @@ const CreditCard = () => (
                   color='#f05656'
                 />
               </Col>
-              <Col xs={8} className='h5 text-muted'>
+              <Col xs={10} className='h5 text-muted'>
                 Crédito Pessoal
               </Col>
             </Row>
@@ -37,7 +37,7 @@ const CreditCard = () => (
               <Col xs={2} className='d-flex justify-content-center'>
                 <FontAwesomeIcon icon={faMobile} size='2x' color='#f05656' />
               </Col>
-              <Col xs={8} className='h5 text-muted'>
+              <Col xs={10} className='h5 text-muted'>
                 APP
               </Col>
             </Row>
@@ -51,7 +51,7 @@ const CreditCard = () => (
                   color='#f05656'
                 />
               </Col>
-              <Col xs={8} className='h5 text-muted'>
+              <Col xs={10} className='h5 text-muted'>
                 Pagamentos Online
               </Col>
             </Row>
@@ -61,7 +61,7 @@ const CreditCard = () => (
               <Col xs={2} className='d-flex justify-content-center'>
                 <FontAwesomeIcon icon={faWallet} size='2x' color='#f05656' />
               </Col>
-              <Col xs={8} className='h5 text-muted'>
+              <Col xs={10} className='h5 text-muted'>
                 Pagamento Digital
               </Col>
             </Row>
