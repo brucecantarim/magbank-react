@@ -23,7 +23,7 @@ const CreditCard = () => (
               icon={faCreditCard}
               size={2}
               color='#f05656'
-              className='h5 text-muted'
+              textClassName='h5 text-muted'
             >
               Crédito Pessoal
             </IconText>
@@ -33,7 +33,7 @@ const CreditCard = () => (
               icon={faMobile}
               size={2}
               color='#f05656'
-              className='h5 text-muted'
+              textClassName='h5 text-muted'
             >
               APP
             </IconText>
@@ -43,7 +43,7 @@ const CreditCard = () => (
               icon={faShoppingCart}
               size={2}
               color='#f05656'
-              className='h5 text-muted'
+              textClassName='h5 text-muted'
             >
               Pagamentos Online
             </IconText>
@@ -53,7 +53,7 @@ const CreditCard = () => (
               icon={faWallet}
               size={2}
               color='#f05656'
-              className='h5 text-muted'
+              textClassName='h5 text-muted'
             >
               Pagamento Digital
             </IconText>
