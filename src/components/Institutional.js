@@ -26,18 +26,20 @@ const Institutional = () => (
             mauris. Maecenas massa orci, fringilla eget fermentum nec, dignissim
             nec diam.
           </p>
-          <IconText icon={faMobileAlt} color='#FFF' className='mb-2'>
-            Sem fila e sem burocracia
-          </IconText>
-          <IconText icon={faMobile} color='#FFF' className='mb-2'>
-            Simples e prático
-          </IconText>
-          <IconText icon={faGlobe} color='#FFF' className='mb-2'>
-            Abertura de conta 100% online
-          </IconText>
-          <IconText icon={faShieldAlt} color='#FFF' className='mb-2'>
-            Transações mais seguras
-          </IconText>
+          <div className='px-2'>
+            <IconText icon={faMobileAlt} color='#FFF' className='mb-2'>
+              Sem fila e sem burocracia
+            </IconText>
+            <IconText icon={faMobile} color='#FFF' className='mb-2'>
+              Simples e prático
+            </IconText>
+            <IconText icon={faGlobe} color='#FFF' className='mb-2'>
+              Abertura de conta 100% online
+            </IconText>
+            <IconText icon={faShieldAlt} color='#FFF' className='mb-2'>
+              Transações mais seguras
+            </IconText>
+          </div>
           <Button variant='outline-light' className='mt-5'>
             Abra sua conta
           </Button>
