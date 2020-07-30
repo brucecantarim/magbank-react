@@ -45,6 +45,9 @@ const Faq = () => {
                 </Col>
               ))}
             </Row>
+            <Row className='justify-content-center mt-5'>
+              <p className='lead'>{options[index].text}</p>
+            </Row>
           </Col>
 
           <Col className='d-none d-lg-block'>
