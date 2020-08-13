@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Switch, Route, Link } from 'react-router-dom';
 import {
   Container,
   Navbar,
@@ -7,7 +7,11 @@ import {
   ButtonGroup,
   Button,
   NavDropdown,
+  Form,
 } from 'react-bootstrap';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faSearch } from '@fortawesome/free-solid-svg-icons';
+
 import './Navbar.scss';
 import logo from '../assets/logo.svg';
 
@@ -24,28 +28,48 @@ const Navigation = ({ handleCreateAcc }) => (
           />
         </Link>
       </Navbar.Brand>
-      <Navbar.Toggle aria-controls='basic-navbar-nav' />
-      <Navbar.Collapse id='basic-navbar-nav'>
-        <Nav className='mr-auto'>
-          <Nav.Link href='#cartao'>Cartão</Nav.Link>
-          <Nav.Link href='#quemsomos'>Quem Somos</Nav.Link>
-          <Nav.Link href='#faq'>FAQ</Nav.Link>
-        </Nav>
-        <ButtonGroup aria-label='Basic example'>
-          <Button variant='outline-light'>
-            <NavDropdown title='Acessar minha conta' id='basic-nav-dropdown'>
-              <NavDropdown.Item>
-                <Link to='/login'>Pessoa Física</Link>
-              </NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item>Pessoa Jurídica</NavDropdown.Item>
-            </NavDropdown>
-          </Button>
-          <Button variant='outline-light' onClick={handleCreateAcc}>
-            abra sua conta
-          </Button>
-        </ButtonGroup>
-      </Navbar.Collapse>
+      <Switch>
+        <Route path='/dashboard'>
+          <Form>
+            <div className='navbar__search-group d-none d-lg-flex'>
+              <Form.Control type='text' placeholder='O que você procura?' />
+              <Button variant='link'>
+                <FontAwesomeIcon icon={faSearch} color='#FFF' />
+              </Button>
+            </div>
+          </Form>
+          <Link to='/'>
+            <Button variant='outline-light'>Sair</Button>
+          </Link>
+        </Route>
+        <Route path='/'>
+          <Navbar.Toggle aria-controls='basic-navbar-nav' />
+          <Navbar.Collapse id='basic-navbar-nav'>
+            <Nav className='mr-auto'>
+              <Nav.Link href='#cartao'>Cartão</Nav.Link>
+              <Nav.Link href='#quemsomos'>Quem Somos</Nav.Link>
+              <Nav.Link href='#faq'>FAQ</Nav.Link>
+            </Nav>
+            <ButtonGroup aria-label='Basic example'>
+              <Button variant='outline-light'>
+                <NavDropdown
+                  title='Acessar minha conta'
+                  id='basic-nav-dropdown'
+                >
+                  <NavDropdown.Item>
+                    <Link to='/login'>Pessoa Física</Link>
+                  </NavDropdown.Item>
+                  <NavDropdown.Divider />
+                  <NavDropdown.Item>Pessoa Jurídica</NavDropdown.Item>
+                </NavDropdown>
+              </Button>
+              <Button variant='outline-light' onClick={handleCreateAcc}>
+                abra sua conta
+              </Button>
+            </ButtonGroup>
+          </Navbar.Collapse>
+        </Route>
+      </Switch>
     </Container>
   </Navbar>
 );
