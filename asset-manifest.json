@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.195f09e1.chunk.css",
-    "main.js": "/static/js/main.4a65f885.chunk.js",
-    "main.js.map": "/static/js/main.4a65f885.chunk.js.map",
+    "main.js": "/static/js/main.e883223f.chunk.js",
+    "main.js.map": "/static/js/main.e883223f.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.c27e7200.js",
     "runtime-main.js.map": "/static/js/runtime-main.c27e7200.js.map",
-    "static/js/2.60c34171.chunk.js": "/static/js/2.60c34171.chunk.js",
-    "static/js/2.60c34171.chunk.js.map": "/static/js/2.60c34171.chunk.js.map",
+    "static/js/2.ad48be0f.chunk.js": "/static/js/2.ad48be0f.chunk.js",
+    "static/js/2.ad48be0f.chunk.js.map": "/static/js/2.ad48be0f.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.c15a7261d2d213252c84c05259a7ff74.js": "/precache-manifest.c15a7261d2d213252c84c05259a7ff74.js",
+    "precache-manifest.3d4ea99f72ec5ce6c0bcee66a3351b3c.js": "/precache-manifest.3d4ea99f72ec5ce6c0bcee66a3351b3c.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.195f09e1.chunk.css.map": "/static/css/main.195f09e1.chunk.css.map",
-    "static/js/2.60c34171.chunk.js.LICENSE.txt": "/static/js/2.60c34171.chunk.js.LICENSE.txt",
+    "static/js/2.ad48be0f.chunk.js.LICENSE.txt": "/static/js/2.ad48be0f.chunk.js.LICENSE.txt",
     "static/media/MAGbank.svg": "/static/media/MAGbank.acbffbd6.svg",
     "static/media/credit-card.jpg": "/static/media/credit-card.2f93cedd.jpg",
     "static/media/Hero.scss": "/static/media/hero.f992ac66.jpg",
@@ -23,8 +23,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.c27e7200.js",
-    "static/js/2.60c34171.chunk.js",
+    "static/js/2.ad48be0f.chunk.js",
     "static/css/main.195f09e1.chunk.css",
-    "static/js/main.4a65f885.chunk.js"
+    "static/js/main.e883223f.chunk.js"
   ]
 }
