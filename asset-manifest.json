@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.195f09e1.chunk.css",
+    "main.js": "/static/js/main.4a65f885.chunk.js",
+    "main.js.map": "/static/js/main.4a65f885.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.c27e7200.js",
+    "runtime-main.js.map": "/static/js/runtime-main.c27e7200.js.map",
+    "static/js/2.60c34171.chunk.js": "/static/js/2.60c34171.chunk.js",
+    "static/js/2.60c34171.chunk.js.map": "/static/js/2.60c34171.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.c15a7261d2d213252c84c05259a7ff74.js": "/precache-manifest.c15a7261d2d213252c84c05259a7ff74.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.195f09e1.chunk.css.map": "/static/css/main.195f09e1.chunk.css.map",
+    "static/js/2.60c34171.chunk.js.LICENSE.txt": "/static/js/2.60c34171.chunk.js.LICENSE.txt",
+    "static/media/MAGbank.svg": "/static/media/MAGbank.acbffbd6.svg",
+    "static/media/credit-card.jpg": "/static/media/credit-card.2f93cedd.jpg",
+    "static/media/Hero.scss": "/static/media/hero.f992ac66.jpg",
+    "static/media/Institutional.scss": "/static/media/institutional.553335da.jpg",
+    "static/media/logo.svg": "/static/media/logo.781cf72b.svg",
+    "static/media/logo__magic-pay--mobile.png": "/static/media/logo__magic-pay--mobile.6620cf10.png",
+    "static/media/logo__magic-pay.png": "/static/media/logo__magic-pay.f334775a.png",
+    "static/media/post-3.jpg": "/static/media/post-3.589c16b8.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c27e7200.js",
+    "static/js/2.60c34171.chunk.js",
+    "static/css/main.195f09e1.chunk.css",
+    "static/js/main.4a65f885.chunk.js"
+  ]
+}
