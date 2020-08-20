@@ -21,7 +21,7 @@ const Login = ({ text, auth }) => {
           <Col className='text-center text-light'>
             <Image src={logo} className='mb-5' />
             <Form>
-              <Form.Group controlId='formBasicEmail'>
+              <Form.Group controlId='formBasicName'>
                 <Form.Label className='lead'>
                   <strong>Nome e Sobrenome</strong>
                 </Form.Label>
@@ -32,7 +32,7 @@ const Login = ({ text, auth }) => {
                 />
               </Form.Group>
 
-              <Form.Group controlId='formBasicEmail'>
+              <Form.Group controlId='formBasicAccount'>
                 <Form.Label className='lead'>
                   <strong>Número da Conta</strong>
                 </Form.Label>
